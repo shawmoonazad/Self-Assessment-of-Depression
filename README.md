@@ -33,7 +33,8 @@ Md Shawmoon Azad: shawmoon.azad@northsouth.edu or shawmoon98@gmail.com
 Dr. Sifat Momen: sifat.momen@northsouth.edu
 
 ## To cite the work
-```@article{AZAD2025100372,
+```
+@article{AZAD2025100372,
 title = {SAD: Self-assessment of depression for Bangladeshi university students using machine learning and NLP},
 journal = {Array},
 volume = {25},
@@ -43,4 +44,5 @@ issn = {2590-0056},
 doi = {https://doi.org/10.1016/j.array.2024.100372},
 url = {https://www.sciencedirect.com/science/article/pii/S2590005624000389},
 author = {Md Shawmoon Azad and Shakirul Islam Leeon and Riasat Khan and Nabeel Mohammed and Sifat Momen},
-}```
+}
+```
