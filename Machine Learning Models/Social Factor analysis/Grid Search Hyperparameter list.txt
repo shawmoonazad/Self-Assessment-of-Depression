@@ -1,0 +1,73 @@
+--------------------------------------------------------
+PHQ+Academic
+--------------------------------------------------------
+best_classifiers = {
+    'KNN': KNeighborsClassifier(n_neighbors=1, metric='manhattan'),
+    'Decision Tree': DecisionTreeClassifier(criterion='entropy', max_depth=15, min_samples_leaf=4, min_samples_split=5),
+    'Random Forest': RandomForestClassifier(n_estimators=50, criterion='entropy', max_depth=19, max_features='log2', min_samples_leaf=1, min_samples_split=2),
+    'Logistic Regression': LogisticRegression(C=100.0, solver='lbfgs'),
+    'Naive Bayes': GaussianNB(),
+    'SVM': SVC(C=10.0, degree=2, gamma=0.01, kernel='linear', probability=True),
+    'AdaBoost': AdaBoostClassifier(n_estimators=200, learning_rate=1, algorithm='SAMME'),
+    'Gradient Boosting': GradientBoostingClassifier(n_estimators=200, learning_rate=0.1, max_depth=1, min_samples_leaf=2, min_samples_split=2, loss='log_loss')
+}
+
+--------------------------------------------------------
+PHQ+All
+--------------------------------------------------------
+classifiers = {
+    'KNN': KNeighborsClassifier(metric='manhattan', n_neighbors=1),
+    'Decision Tree': DecisionTreeClassifier(criterion='entropy', max_depth=20, min_samples_leaf=1, min_samples_split=5),
+    'Random Forest': RandomForestClassifier(criterion='entropy', max_depth=8, max_features='sqrt', min_samples_leaf=2, min_samples_split=2, n_estimators=100),
+    'Logistic Regression': LogisticRegression(C=10.0, solver='newton-cg'),
+    'Naive Bayes': GaussianNB(),
+    'SVM': SVC(C=1.0, degree=2, gamma=0.01, kernel='linear', probability=True),
+    'AdaBoost': AdaBoostClassifier(algorithm='SAMME', learning_rate=1, n_estimators=200),
+    'Gradient Boosting': GradientBoostingClassifier(learning_rate=0.1, loss='log_loss', max_depth=1, min_samples_leaf=1, min_samples_split=2, n_estimators=200)
+}
+
+--------------------------------------------------------
+PHQ+Pressure
+--------------------------------------------------------
+# Defining classifiers with determined hyperparameters
+classifiers = {
+    'KNN': KNeighborsClassifier(metric='euclidean', n_neighbors=1),
+    'Decision Tree': DecisionTreeClassifier(criterion='entropy', max_depth=11, min_samples_leaf=1, min_samples_split=2),
+    'Random Forest': RandomForestClassifier(criterion='entropy', max_depth=15, max_features='log2', min_samples_leaf=1, min_samples_split=5, n_estimators=200),
+    'Logistic Regression': LogisticRegression(C=100.0, solver='lbfgs'),
+    'Naive Bayes': GaussianNB(),
+    'SVM': SVC(C=10.0, degree=2, gamma=0.01, kernel='linear', probability=True),
+    'AdaBoost': AdaBoostClassifier(algorithm='SAMME', learning_rate=1, n_estimators=200),
+    'Gradient Boosting': GradientBoostingClassifier(learning_rate=0.1, loss='log_loss', max_depth=1, min_samples_leaf=1, min_samples_split=2, n_estimators=200)
+}
+
+--------------------------------------------------------
+PHQ+Relation
+--------------------------------------------------------
+
+best_classifiers = {
+    'KNN': KNeighborsClassifier(n_neighbors=9, metric='euclidean'),
+    'Decision Tree': DecisionTreeClassifier(criterion='entropy', max_depth=7, min_samples_leaf=1, min_samples_split=2),
+    'Random Forest': RandomForestClassifier(n_estimators=200, criterion='entropy', max_depth=19, min_samples_leaf=1, min_samples_split=2, max_features='auto'),
+    'Logistic Regression': LogisticRegression(C=100.0, solver='newton-cg'),
+    'Naive Bayes': GaussianNB(),
+    'SVM': SVC(C=10.0, kernel='linear', degree=2, gamma=0.01, probability=True),
+    'AdaBoost': AdaBoostClassifier(n_estimators=200, learning_rate=1, algorithm='SAMME'),
+    'Gradient Boosting': GradientBoostingClassifier(n_estimators=200, learning_rate=0.1, max_depth=1, min_samples_leaf=4, min_samples_split=2, loss='log_loss')
+}
+--------------------------------------------------------
+PHQ+Violence
+--------------------------------------------------------
+
+
+# Initialize classifiers with best hyperparameters
+classifiers = {
+    'KNN': KNeighborsClassifier(n_neighbors=1, metric='euclidean'),
+    'Decision Tree': DecisionTreeClassifier(criterion='entropy', max_depth=13, min_samples_split=2, min_samples_leaf=1),
+    'Random Forest': RandomForestClassifier(n_estimators=200, criterion='entropy', max_depth=10, min_samples_split=2, min_samples_leaf=1, max_features='log2'),
+    'Logistic Regression': LogisticRegression(C=100.0, solver='newton-cg'),
+    'Naive Bayes': GaussianNB(),
+    'SVM': SVC(C=10.0, degree=2, gamma=0.01, kernel='linear', probability=True),
+    'AdaBoost': AdaBoostClassifier(n_estimators=200, learning_rate=1, algorithm='SAMME'),
+    'Gradient Boosting': GradientBoostingClassifier(n_estimators=200, learning_rate=0.1, max_depth=2, min_samples_split=10, min_samples_leaf=1, loss='log_loss')
+}

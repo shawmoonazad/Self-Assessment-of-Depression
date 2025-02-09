@@ -1,0 +1,422 @@
+-------------------------------------------------------
+BDI
+-------------------------------------------------------
+-------------KNN:-------------
+Mean Accuracy: 0.69994 ± 0.03579
+Mean Precision: 0.71174 ± 0.03833
+Mean Recall: 0.67336 ± 0.03842
+Mean F1 Score: 0.67424 ± 0.04085
+
+-------------Decision Tree:-------------
+Mean Accuracy: 0.56359 ± 0.03764
+Mean Precision: 0.57460 ± 0.04345
+Mean Recall: 0.55154 ± 0.04375
+Mean F1 Score: 0.55178 ± 0.04232
+
+-------------Random Forest:-------------
+Mean Accuracy: 0.72712 ± 0.03301
+Mean Precision: 0.76100 ± 0.03806
+Mean Recall: 0.68460 ± 0.03648
+Mean F1 Score: 0.69622 ± 0.03725
+
+-------------Logistic Regression:-------------
+Mean Accuracy: 0.90250 ± 0.02664
+Mean Precision: 0.88745 ± 0.03177
+Mean Recall: 0.88857 ± 0.03287
+Mean F1 Score: 0.88412 ± 0.03203
+
+-------------Naive Bayes:-------------
+Mean Accuracy: 0.74109 ± 0.03598
+Mean Precision: 0.76032 ± 0.03308
+Mean Recall: 0.72093 ± 0.04091
+Mean F1 Score: 0.72695 ± 0.03925
+
+-------------SVM:-------------
+Mean Accuracy: 0.89686 ± 0.02522
+Mean Precision: 0.88748 ± 0.02845
+Mean Recall: 0.88862 ± 0.02959
+Mean F1 Score: 0.88439 ± 0.02863
+
+-------------AdaBoost:-------------
+Mean Accuracy: 0.50853 ± 0.03999
+Mean Precision: 0.39195 ± 0.06013
+Mean Recall: 0.38568 ± 0.03050
+Mean F1 Score: 0.35910 ± 0.03594
+
+-------------Gradient Boosting:-------------
+Mean Accuracy: 0.57756 ± 0.16404
+Mean Precision: 0.56819 ± 0.15379
+Mean Recall: 0.54887 ± 0.15627
+Mean F1 Score: 0.54289 ± 0.16216
+
+-------------------------------------------------------
+DASS21
+-------------------------------------------------------
+-------------KNN:-------------
+Mean Accuracy: 0.84010 ± 0.03085
+Mean Precision: 0.67634 ± 0.07013
+Mean Recall: 0.64817 ± 0.06461
+Mean F1 Score: 0.64194 ± 0.06187
+
+-------------Decision Tree:-------------
+Mean Accuracy: 0.82279 ± 0.03204
+Mean Precision: 0.65909 ± 0.06273
+Mean Recall: 0.67562 ± 0.06228
+Mean F1 Score: 0.65320 ± 0.05906
+
+-------------Random Forest:-------------
+Mean Accuracy: 0.84538 ± 0.03200
+Mean Precision: 0.68239 ± 0.07545
+Mean Recall: 0.65752 ± 0.06358
+Mean F1 Score: 0.64992 ± 0.06225
+
+-------------Logistic Regression:-------------
+Mean Accuracy: 0.94990 ± 0.02099
+Mean Precision: 0.90377 ± 0.04672
+Mean Recall: 0.90142 ± 0.04858
+Mean F1 Score: 0.89470 ± 0.04664
+
+-------------Naive Bayes:-------------
+Mean Accuracy: 0.75183 ± 0.03728
+Mean Precision: 0.54969 ± 0.07208
+Mean Recall: 0.63131 ± 0.05448
+Mean F1 Score: 0.53530 ± 0.04797
+
+-------------SVM:-------------
+Mean Accuracy: 0.95212 ± 0.02128
+Mean Precision: 0.89959 ± 0.04655
+Mean Recall: 0.90346 ± 0.04553
+Mean F1 Score: 0.89283 ± 0.04484
+
+-------------AdaBoost:-------------
+Mean Accuracy: 0.75808 ± 0.03790
+Mean Precision: 0.38117 ± 0.05522
+Mean Recall: 0.43775 ± 0.03301
+Mean F1 Score: 0.39539 ± 0.03723
+
+-------------Gradient Boosting:-------------
+Mean Accuracy: 0.88442 ± 0.03618
+Mean Precision: 0.75147 ± 0.07351
+Mean Recall: 0.75531 ± 0.07220
+Mean F1 Score: 0.74095 ± 0.07200
+
+-------------------------------------------------------
+EQ5D5L
+-------------------------------------------------------
+
+
+-------------KNN:-------------
+Mean Accuracy: 0.82019 ± 0.03463
+Mean Precision: 0.82084 ± 0.05058
+Mean Recall: 0.78693 ± 0.05522
+Mean F1 Score: 0.79451 ± 0.05392
+
+-------------Decision Tree:-------------
+Mean Accuracy: 0.82885 ± 0.04002
+Mean Precision: 0.81348 ± 0.05522
+Mean Recall: 0.80155 ± 0.05669
+Mean F1 Score: 0.79887 ± 0.05447
+
+-------------Random Forest:-------------
+Mean Accuracy: 0.86298 ± 0.03725
+Mean Precision: 0.87076 ± 0.04155
+Mean Recall: 0.82624 ± 0.05246
+Mean F1 Score: 0.83848 ± 0.04932
+
+-------------Logistic Regression:-------------
+Mean Accuracy: 0.97260 ± 0.01623
+Mean Precision: 0.95516 ± 0.04562
+Mean Recall: 0.91158 ± 0.04843
+Mean F1 Score: 0.92025 ± 0.05104
+
+-------------Naive Bayes:-------------
+Mean Accuracy: 0.80356 ± 0.04566
+Mean Precision: 0.82611 ± 0.05368
+Mean Recall: 0.74251 ± 0.05813
+Mean F1 Score: 0.76075 ± 0.06024
+
+-------------SVM:-------------
+Mean Accuracy: 0.94202 ± 0.02592
+Mean Precision: 0.93125 ± 0.04834
+Mean Recall: 0.88067 ± 0.05319
+Mean F1 Score: 0.89183 ± 0.05508
+
+-------------AdaBoost:-------------
+Mean Accuracy: 0.56250 ± 0.05103
+Mean Precision: 0.40278 ± 0.09360
+Mean Recall: 0.45779 ± 0.04906
+Mean F1 Score: 0.39526 ± 0.05482
+
+-------------Gradient Boosting:-------------
+Mean Accuracy: 0.85808 ± 0.03697
+Mean Precision: 0.84284 ± 0.04882
+Mean Recall: 0.82595 ± 0.05307
+Mean F1 Score: 0.82642 ± 0.05128
+
+
+
+
+-------------------------------------------------------
+HDRS
+-------------------------------------------------------
+
+
+-------------KNN:-------------
+Mean Accuracy: 0.76269 ± 0.04100
+Mean Precision: 0.76302 ± 0.04256
+Mean Recall: 0.76599 ± 0.04415
+Mean F1 Score: 0.75742 ± 0.04286
+
+-------------Decision Tree:-------------
+Mean Accuracy: 0.70433 ± 0.04128
+Mean Precision: 0.69984 ± 0.04551
+Mean Recall: 0.70142 ± 0.04744
+Mean F1 Score: 0.69502 ± 0.04386
+
+-------------Random Forest:-------------
+Mean Accuracy: 0.81606 ± 0.04157
+Mean Precision: 0.82705 ± 0.04365
+Mean Recall: 0.79442 ± 0.04514
+Mean F1 Score: 0.80196 ± 0.04382
+
+-------------Logistic Regression:-------------
+Mean Accuracy: 0.94760 ± 0.02297
+Mean Precision: 0.95152 ± 0.02411
+Mean Recall: 0.94911 ± 0.02366
+Mean F1 Score: 0.94873 ± 0.02346
+
+-------------Naive Bayes:-------------
+Mean Accuracy: 0.76356 ± 0.03995
+Mean Precision: 0.78930 ± 0.04330
+Mean Recall: 0.74704 ± 0.04501
+Mean F1 Score: 0.75831 ± 0.04243
+
+-------------SVM:-------------
+Mean Accuracy: 0.97798 ± 0.01552
+Mean Precision: 0.97512 ± 0.01835
+Mean Recall: 0.97588 ± 0.01779
+Mean F1 Score: 0.97476 ± 0.01728
+
+-------------AdaBoost:-------------
+Mean Accuracy: 0.78452 ± 0.04653
+Mean Precision: 0.80300 ± 0.05573
+Mean Recall: 0.77035 ± 0.05154
+Mean F1 Score: 0.77795 ± 0.05192
+
+-------------Gradient Boosting:-------------
+Mean Accuracy: 0.86721 ± 0.03753
+Mean Precision: 0.87018 ± 0.03873
+Mean Recall: 0.86961 ± 0.04179
+Mean F1 Score: 0.86633 ± 0.04010
+
+
+-------------------------------------------------------
+K10
+-------------------------------------------------------
+
+
+-------------KNN:-------------
+Mean Accuracy: 0.91769 ± 0.02497
+Mean Precision: 0.76176 ± 0.09954
+Mean Recall: 0.72440 ± 0.06679
+Mean F1 Score: 0.70585 ± 0.07260
+
+-------------Decision Tree:-------------
+Mean Accuracy: 0.92942 ± 0.02737
+Mean Precision: 0.79416 ± 0.08590
+Mean Recall: 0.81939 ± 0.07021
+Mean F1 Score: 0.79409 ± 0.07668
+
+-------------Random Forest:-------------
+Mean Accuracy: 0.93692 ± 0.02211
+Mean Precision: 0.81244 ± 0.07802
+Mean Recall: 0.81019 ± 0.06277
+Mean F1 Score: 0.79848 ± 0.06688
+
+-------------Logistic Regression:-------------
+Mean Accuracy: 0.93702 ± 0.02669
+Mean Precision: 0.83437 ± 0.10079
+Mean Recall: 0.76237 ± 0.08652
+Mean F1 Score: 0.76931 ± 0.09319
+
+-------------Naive Bayes:-------------
+Mean Accuracy: 0.80865 ± 0.04678
+Mean Precision: 0.50231 ± 0.09926
+Mean Recall: 0.60705 ± 0.07168
+Mean F1 Score: 0.50735 ± 0.08985
+
+-------------SVM:-------------
+Mean Accuracy: 0.93413 ± 0.02305
+Mean Precision: 0.83020 ± 0.09476
+Mean Recall: 0.75553 ± 0.06068
+Mean F1 Score: 0.75660 ± 0.06401
+
+-------------AdaBoost:-------------
+Mean Accuracy: 0.80433 ± 0.10267
+Mean Precision: 0.54719 ± 0.14526
+Mean Recall: 0.62587 ± 0.13096
+Mean F1 Score: 0.55757 ± 0.14261
+
+-------------Gradient Boosting:-------------
+Mean Accuracy: 0.93067 ± 0.02666
+Mean Precision: 0.79310 ± 0.08994
+Mean Recall: 0.80561 ± 0.07118
+Mean F1 Score: 0.78627 ± 0.07844
+
+
+-------------------------------------------------------
+MADRS
+-------------------------------------------------------
+
+
+-------------KNN:-------------
+Mean Accuracy: 0.87635 ± 0.03145
+Mean Precision: 0.86386 ± 0.07781
+Mean Recall: 0.87059 ± 0.08093
+Mean F1 Score: 0.86137 ± 0.07690
+
+-------------Decision Tree:-------------
+Mean Accuracy: 0.81538 ± 0.03649
+Mean Precision: 0.84318 ± 0.05959
+Mean Recall: 0.83711 ± 0.05213
+Mean F1 Score: 0.83331 ± 0.05206
+
+-------------Random Forest:-------------
+Mean Accuracy: 0.89135 ± 0.03354
+Mean Precision: 0.91012 ± 0.06759
+Mean Recall: 0.88408 ± 0.06807
+Mean F1 Score: 0.89278 ± 0.06661
+
+-------------Logistic Regression:-------------
+Mean Accuracy: 0.98221 ± 0.01256
+Mean Precision: 0.97126 ± 0.05684
+Mean Recall: 0.95837 ± 0.06130
+Mean F1 Score: 0.96244 ± 0.05794
+
+-------------Naive Bayes:-------------
+Mean Accuracy: 0.88337 ± 0.03341
+Mean Precision: 0.91128 ± 0.04265
+Mean Recall: 0.88373 ± 0.05153
+Mean F1 Score: 0.89351 ± 0.04697
+
+-------------SVM:-------------
+Mean Accuracy: 0.97596 ± 0.01370
+Mean Precision: 0.96730 ± 0.04434
+Mean Recall: 0.96353 ± 0.04671
+Mean F1 Score: 0.96292 ± 0.04413
+
+-------------AdaBoost:-------------
+Mean Accuracy: 0.74356 ± 0.04337
+Mean Precision: 0.39906 ± 0.05756
+Mean Recall: 0.47549 ± 0.04853
+Mean F1 Score: 0.43069 ± 0.04926
+
+-------------Gradient Boosting:-------------
+Mean Accuracy: 0.87990 ± 0.12794
+Mean Precision: 0.83143 ± 0.16500
+Mean Recall: 0.84105 ± 0.16506
+Mean F1 Score: 0.82790 ± 0.16546
+
+-------------------------------------------------------
+PHQ9
+-------------------------------------------------------
+-------------KNN:-------------
+Mean Accuracy: 0.83894 ± 0.03398
+Mean Precision: 0.85147 ± 0.04451
+Mean Recall: 0.80895 ± 0.04882
+Mean F1 Score: 0.81935 ± 0.04730
+
+-------------Decision Tree:-------------
+Mean Accuracy: 0.73510 ± 0.03982
+Mean Precision: 0.72407 ± 0.05929
+Mean Recall: 0.71481 ± 0.05634
+Mean F1 Score: 0.70693 ± 0.05429
+
+-------------Random Forest:-------------
+Mean Accuracy: 0.83433 ± 0.03736
+Mean Precision: 0.84568 ± 0.04709
+Mean Recall: 0.80402 ± 0.05336
+Mean F1 Score: 0.81355 ± 0.05158
+
+-------------Logistic Regression:-------------
+Mean Accuracy: 0.98423 ± 0.01554
+Mean Precision: 0.97487 ± 0.02740
+Mean Recall: 0.96913 ± 0.03283
+Mean F1 Score: 0.96902 ± 0.03241
+
+-------------Naive Bayes:-------------
+Mean Accuracy: 0.81673 ± 0.04429
+Mean Precision: 0.83770 ± 0.05429
+Mean Recall: 0.78385 ± 0.06078
+Mean F1 Score: 0.79564 ± 0.06098
+
+-------------SVM:-------------
+Mean Accuracy: 0.99144 ± 0.01445
+Mean Precision: 0.98474 ± 0.02544
+Mean Recall: 0.98071 ± 0.03234
+Mean F1 Score: 0.98078 ± 0.03128
+
+-------------AdaBoost:-------------
+Mean Accuracy: 0.53904 ± 0.04936
+Mean Precision: 0.34221 ± 0.06054
+Mean Recall: 0.45847 ± 0.03845
+Mean F1 Score: 0.38213 ± 0.04092
+
+-------------Gradient Boosting:-------------
+Mean Accuracy: 0.84087 ± 0.03539
+Mean Precision: 0.81521 ± 0.05987
+Mean Recall: 0.79363 ± 0.05683
+Mean F1 Score: 0.79458 ± 0.05745
+
+-------------------------------------------------------
+QIDS
+-------------------------------------------------------
+
+
+-------------KNN:-------------
+Mean Accuracy: 0.74577 ± 0.04249
+Mean Precision: 0.72788 ± 0.04534
+Mean Recall: 0.74596 ± 0.03905
+Mean F1 Score: 0.72737 ± 0.04360
+
+-------------Decision Tree:-------------
+Mean Accuracy: 0.68971 ± 0.04524
+Mean Precision: 0.68022 ± 0.04635
+Mean Recall: 0.68820 ± 0.04529
+Mean F1 Score: 0.67752 ± 0.04688
+
+-------------Random Forest:-------------
+Mean Accuracy: 0.74750 ± 0.04299
+Mean Precision: 0.74068 ± 0.04435
+Mean Recall: 0.74325 ± 0.04306
+Mean F1 Score: 0.73496 ± 0.04358
+
+-------------Logistic Regression:-------------
+Mean Accuracy: 0.97279 ± 0.01971
+Mean Precision: 0.97042 ± 0.02292
+Mean Recall: 0.96960 ± 0.02221
+Mean F1 Score: 0.96901 ± 0.02318
+
+-------------Naive Bayes:-------------
+Mean Accuracy: 0.68279 ± 0.04247
+Mean Precision: 0.65107 ± 0.04889
+Mean Recall: 0.67624 ± 0.04073
+Mean F1 Score: 0.64555 ± 0.04569
+
+-------------SVM:-------------
+Mean Accuracy: 0.98317 ± 0.01479
+Mean Precision: 0.97983 ± 0.01911
+Mean Recall: 0.98074 ± 0.01693
+Mean F1 Score: 0.97967 ± 0.01847
+
+-------------AdaBoost:-------------
+Mean Accuracy: 0.58683 ± 0.06673
+Mean Precision: 0.59093 ± 0.07154
+Mean Recall: 0.57776 ± 0.06604
+Mean F1 Score: 0.56989 ± 0.06826
+
+-------------Gradient Boosting:-------------
+Mean Accuracy: 0.85279 ± 0.03797
+Mean Precision: 0.84407 ± 0.04082
+Mean Recall: 0.84746 ± 0.03936
+Mean F1 Score: 0.84102 ± 0.04065
